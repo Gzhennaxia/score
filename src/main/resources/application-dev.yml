@@ -1,0 +1,9 @@
+server:
+  port: 9528
+spring:
+  datasource:
+    driver-class-name: org.sqlite.JDBC
+    url: jdbc:sqlite:/Users/gzhennaxia/Documents/GitHub/score/src/main/java/com/gzhennaxia/score/db/score.sqlite
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
